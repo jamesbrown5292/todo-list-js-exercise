@@ -1,6 +1,6 @@
 
 // Create a new task object with title, description and complete
-function newTask(title, description) {
+const newTask = (title, description) => {
   const task = {
     'title': title,
     'description': description,
